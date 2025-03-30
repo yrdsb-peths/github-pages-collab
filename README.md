@@ -1,34 +1,46 @@
-# Create Your Own Webpage!
+# Class Website - Let's build this together!
 
-1. Open VSCode.
+## A. Make a branch
+1. Clone the repository using Github Desktop.
 
-1. Click on `Extensions`, search and install `Live Server` by *Ritwick Dey*.
+1. **Choose option 1 - Contribute to parent repo**
 
-1. Right-click `index.html` and choose `Open with Live Server`. Leave this browser page open.
+1. Create a branch, perhaps name it your `<first name>`.
 
-1. Modify `index.html` by changing the `Hello World!` to include your name. Notice that the webpage updates when you save the changes. **Commit and push**.
+## B. Keeping your branch up to date
 
-1. Add this line to the body of `index.html` which adds an image. **Commit and push**.
+1. Switch to the `main` branch and **pull** the latest changes.
 
-    ```
-    <body>
-        <h1>Hello World!</h1>
-        <img src="/assets/images/logo.png" alt="Logo">
-    </body>
-    ```
+1. Now, switch back to `<first name>` and merge the latest changes from `main`:
 
-# Show your page to the World!
+1. If there are merge conflicts, open the conflicting files in VSCode, resolve the differences, then commit the resolved files.
 
-1. Go to the Github web dashboard and choose `Settings`.
+## C. Make changes
 
-1. Choose `Pages` in the lefthand sidebar.
+1. Open `index.html`. You can use VSCode or another editor.
 
-1. Under the `Build and deplyment` section select `main` in the dropdown. Then click the `Save` button.
+1. Find the place on the page where student wepbage links should go.
 
-1. Wait a few minutes and then refresh the page. When ready, you will see `Your site is live at <link>`. Click the link and view your webpage! Try copying the link url and open it on your phone's web browser. Then show it to a friend!
+1. Add a link to your personal GitHub page. Example:
+   ```html
+   <li><a href="https://your-github-username.github.io" target="_blank">First Name</a></li>
+   ```
 
-# Keep going!
+1. Save and commit the changes.
 
-1. Make more changes to your page to personalize it. Perhaps add some of your favourite things and change the logo and add more images. Use ChatGPT or Copilot to learn more about how to make your page look nice.
+1. Pull and merge any updates from main. Resolve any conflicts before continuing.
 
-1. Commit and push at each step. Github automatically updates your live webpage when you push changes to the `main` branch.
+## D. Open a Pull Request
+
+1. In Github Desktop or on the Github Dashboard, create a new **Pull Request** from your branch to the `main`.
+
+1. Make changes to your branch if you need to fix up things.
+
+1. Wait for approval and merge! The changes you made in `<first name>` are now part of `main`!
+
+## E. Keep Contributing!
+Once your PR is merged:
+- Suggest and implement cool features.
+- Work with classmates to improve the design!
+
+Happy coding! 🎉🚀
